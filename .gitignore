@@ -1,0 +1,27 @@
+
+# Created by https://www.gitignore.io/api/flask
+# Edit at https://www.gitignore.io/?templates=flask
+
+### Flask ###
+instance/*
+!instance/.gitignore
+.webassets-cache
+__pycache__/
+
+### Environmentsv###
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+
+### PyCharm ###
+.idea
+
+
+### DB ###
+app.db
